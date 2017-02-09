@@ -29,5 +29,5 @@ Solves PLESK SSL Certificate Error because of multiple Domain name with Dovecot,
 
 ## 3. Further Addons
    a) Add support for Thunderbird
-   b) - Add support for MAC IPAD IPHONE: Automaticaly with unsigned profile
-      - Add support for MAC IPAD IPHONE: Manually with installation wizard
+   b) Add support for MAC IPAD IPHONE: Automaticaly with unsigned profile
+      Add support for MAC IPAD IPHONE: Manually with installation wizard
