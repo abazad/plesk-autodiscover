@@ -27,3 +27,7 @@ Solves PLESK SSL Certificate Error because of multiple Domain name with Dovecot,
      If you need per Host config, edit the config.php in the /var/www/autodiscover directory. You can enable additional Services like POP3
      
 
+## 3. Further Addons
+   a) Add support for Thunderbird
+   b) - Add support for MAC IPAD IPHONE: Automaticaly with unsigned profile
+      - Add support for MAC IPAD IPHONE: Manually with installation wizard
