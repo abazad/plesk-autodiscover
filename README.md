@@ -4,13 +4,14 @@ Automatically Addon to Autoinstall Microsoft Outlook Clients without many work.
 
 Solves PLESK SSL Certificate Error because of multiple Domain name with Dovecot, Courrier, Postfix
 
-1. Preparation
+## 1. Preparation
    a) Install the Let's Encrypt Module
    b) Create a Default Server Domain with the Server's Hostname
    c) Create a Let's Encrypt Certificate
    d) Under Tools&Settings -> SSL & Certificates, select the certificate for the Default Hostname under Mail Server
    
-2. Install
+
+## 2. Install
 
 
   a) Deploy package to /var/www/autodiscover
