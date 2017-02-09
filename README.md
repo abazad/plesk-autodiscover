@@ -15,7 +15,9 @@ Solves PLESK SSL Certificate Error because of multiple Domain name with Dovecot,
 
 
   a) Deploy package to /var/www/autodiscover
+  
   b) Follow the Instructions at DomainPreset.INSTALL and NGINXPreset.INSTALL
+  
   c) Reconfigure All HOSTS
   
      Run in shell:
@@ -23,11 +25,15 @@ Solves PLESK SSL Certificate Error because of multiple Domain name with Dovecot,
      /usr/local/psa/admin/sbin/httpdmng --reconfigure-all
      
   d) All Hosts which should have AutoDiscover must have a Certificate (no need to enable it as default, Let's encrypt is ok)
+  
   e) For default, the Server's Hostname which is in the certificate will be used for IMAP and SMTP.
+  
      If you need per Host config, edit the config.php in the /var/www/autodiscover directory. You can enable additional Services like POP3
      
 
 ## 3. Further Addons
    a) Add support for Thunderbird
+   
    b) Add support for MAC IPAD IPHONE: Automaticaly with unsigned profile
+   
       Add support for MAC IPAD IPHONE: Manually with installation wizard
